@@ -1,7 +1,7 @@
 import { tool } from "ai";
 import { z } from "zod";
 import Firecrawl from "@mendable/firecrawl-js";
-import type { ActionTracker } from "../agent/action-tracker.ts";
+import type { ActionTracker } from "../agent/action-tacker";
 
 let client: Firecrawl | null = null;
 

@@ -9,7 +9,7 @@ import {
 import { z } from "zod";
 import chalk from "chalk";
 import { getAgentModel } from "../../ai/ai.config.ts";
-import { ActionTracker } from "../agent/action-tracker.ts";
+import { ActionTracker } from "../agent/action-tacker.ts";
 import { ToolExecutor } from "../agent/tool-executor.ts";
 import { defaultAgentConfig } from "../agent/types.ts";
 import type { Plan, PlanStep } from "./types.ts";
